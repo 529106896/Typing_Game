@@ -1,0 +1,395 @@
+﻿  大作业.cpp
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(406,65): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(267,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(406,65): message : 尝试匹配参数列表“(IMAGE *, const char [23], int, int)”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(428,50): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(428,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(429,80): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [43]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(429,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(430,49): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(430,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(450,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(450,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(451,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(451,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(452,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(452,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(455,38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(455,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(458,44): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(458,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(460,38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(460,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(461,38): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(461,24): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(464,15): warning C4477: “_swprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(464,15): message : 请考虑在格式字符串中使用“%hs”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(464,15): message : 请考虑在格式字符串中使用“%Ts”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(464,15): message : Visual C++ 使用非标准语义时会出现此警告
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(466,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(466,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(467,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(467,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(469,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(469,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(470,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(470,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(471,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(471,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(472,32): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(472,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(484,54): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(484,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(485,79): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [42]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(485,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(486,53): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(486,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(497,53): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(497,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(498,75): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [38]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(498,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(499,52): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(499,19): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(590,60): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(267,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(590,60): message : 尝试匹配参数列表“(IMAGE *, const char [20], int, int)”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(591,47): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(267,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(591,47): message : 尝试匹配参数列表“(IMAGE *, const char [13], int, int)”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(593,42): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(593,42): message : 尝试匹配参数列表“(IMAGE *, const char [15])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(594,43): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(594,43): message : 尝试匹配参数列表“(IMAGE *, const char [16])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(596,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(267,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(596,53): message : 尝试匹配参数列表“(IMAGE *, const char [18], int, int)”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(597,53): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(267,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,LPCTSTR,int,int,bool)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 或    “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(597,53): message : 尝试匹配参数列表“(IMAGE *, const char [18], int, int)”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(599,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(599,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(600,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(600,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(601,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(601,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(602,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(602,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(603,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(603,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(604,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(604,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(605,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(605,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(606,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(606,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(607,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(607,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(608,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(608,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(609,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(609,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(610,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(610,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(611,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(611,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(612,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(612,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(613,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(613,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(614,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(614,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(615,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(615,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(616,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(616,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(617,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(617,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(618,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(618,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(619,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(619,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(620,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(620,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(621,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(621,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(622,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(622,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(623,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(623,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(624,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(624,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(625,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(625,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(626,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(626,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(627,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(627,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(628,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(628,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(629,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(629,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(630,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(630,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(631,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(631,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(632,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(632,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(633,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(633,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(634,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(634,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(635,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(635,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(636,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(636,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(637,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(637,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(638,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(638,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(639,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(639,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(640,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(640,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(641,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(641,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(642,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(642,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(643,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(643,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(644,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(644,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(645,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(645,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(646,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(646,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(647,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(647,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(648,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(648,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(649,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(649,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(650,46): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(650,46): message : 尝试匹配参数列表“(IMAGE *, const char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(658,53): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(658,53): message : 尝试匹配参数列表“(int, double, const char [10])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(659,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(659,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(661,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(663,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(663,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(665,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(667,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(667,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(669,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(671,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(671,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(673,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(675,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(675,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(677,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(679,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(679,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(681,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(683,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(683,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(685,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(687,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(687,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(689,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(691,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(691,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(693,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(695,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(695,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(697,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(699,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(699,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(701,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(703,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(703,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(705,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(707,41): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(707,41): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(709,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(711,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(711,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(713,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(715,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(715,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(717,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(719,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(719,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(721,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(723,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(723,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(725,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(727,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(727,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(729,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(731,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(731,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(733,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(735,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(735,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(737,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(739,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(739,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(741,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(743,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(743,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(745,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(747,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(747,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(749,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(751,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(751,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(753,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(755,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(755,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(757,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(759,42): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(759,42): message : 尝试匹配参数列表“(int, double, const char [2])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(761,31): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(786,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(789,29): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(794,28): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(795,43): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\VS2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(795,43): message : 尝试匹配参数列表“(int, double, char [20])”时
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1582,48): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [15]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1582,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1583,73): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [38]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1583,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1584,47): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [14]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1584,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1629,49): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [16]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1629,17): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.18362.0\um\mciapi.h(88,1): message : 参见“mciSendStringW”的声明
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1630,71): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [36]”转换为“LPCWSTR”
+C:\Users\529106896\source\repos\BigHomeworkForC\BigHomeworkForC\大作业.cpp(1630,71): fatal error C1003: 错误计数超过 100；正在停止编译
